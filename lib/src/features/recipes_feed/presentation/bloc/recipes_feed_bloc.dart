@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:recipes/src/features/recipes_feed/domain/entities/recipe.dart';
-import 'package:recipes/src/features/recipes_feed/domain/repositories/recipes_repository.dart';
+import '../../domain/entities/recipe.dart';
+import '../../domain/repositories/recipes_repository.dart';
 
 part 'recipes_feed_event.dart';
 part 'recipes_feed_state.dart';

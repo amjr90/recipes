@@ -1,8 +1,10 @@
 import 'dart:convert';
+
 import 'package:either_dart/either.dart';
+import 'package:http/http.dart' as http;
+
 import 'network_error.dart';
 import 'network_repository.dart';
-import 'package:http/http.dart' as http;
 
 class NetworkRepositoryImpl extends NetworkRepository {
   @override

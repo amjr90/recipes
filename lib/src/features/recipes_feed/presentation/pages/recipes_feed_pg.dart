@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:recipes/src/features/recipes_feed/data/repositories/recipes_repository_impl.dart';
-import 'package:recipes/src/features/recipes_feed/domain/entities/recipe.dart';
-import 'package:recipes/src/features/recipes_feed/presentation/bloc/recipes_feed_bloc.dart';
+import '../../data/repositories/recipes_repository_impl.dart';
+import '../../domain/entities/recipe.dart';
+import '../bloc/recipes_feed_bloc.dart';
 
 class RecipesFeedPage extends StatelessWidget {
   const RecipesFeedPage({super.key});

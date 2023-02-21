@@ -1,5 +1,6 @@
-import 'package:equatable/equatable.dart';
 import 'dart:convert';
+
+import 'package:equatable/equatable.dart';
 
 import 'location.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recipes/src/features/recipes_feed/presentation/pages/recipes_feed_pg.dart';
+import 'src/features/recipes_feed/presentation/pages/recipes_feed_pg.dart';
 
 void main() {
   runApp(const MyApp());
